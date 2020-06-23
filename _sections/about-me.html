@@ -1,0 +1,23 @@
+---
+title: Multivariate uncoupled regression
+icon: fa-user
+order: 3
+---
+
+<a href="#" class="image featured"><img src="assets/images/pic08.jpg" alt="" /></a>
+
+<p>Instead of studying and analyzing coupled data, in practical study we usually need to cope with
+    uncoupled data, that is, when labels and features are not paired together. Instead, you only have
+    a set consisting of features and a set consisting of labels. The quesion is, can you still get some inference
+    or information from such a dataset? Such a situation arises naturally in practical research, originally
+    proposed in sociology and economic study, when the data you obtain is from two separate institute and you
+    want to know whether there's a relation between these two factors. Sometimes, you can get data with the same
+    individuals. In this case, you just need to induce a permutation in the indices of your data and pairing it.
+    This is a relative simple and well-studied field, I think. And there's much paper studying it. But the case
+    I confronted is worse than this. We are not even assured that the data are from the same individuals.
+    In other words, we just obtain data from the two institute independently or we are just sampling from two
+    distributions and we want to determine the relation between these two distributions. The motivation to study
+    such a problem is from biology, where after each measurement the cells are dead and you cannot get coupled
+    data. One possible solution might be using optimal transport to modeling the difference between two
+    distributions. As for the high-dimensional version, we just need to try to merging ways to tackling sparse and
+    optimal transport to make a further discussion. Maybe compressed sensing can be a good choice for the former one.</p>
